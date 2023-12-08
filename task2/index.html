@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Orientation</title>
+        <!-- Font Awesome Cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css" />
+      </head>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="#index" class="logo">
+                <i class="fas fa-arrow-right">Orientation
+            </a>
+            <nav class="navbar">
+                <a href="#index" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+            </nav>
+           
+        </div>
+    </header>
+    <!-- Home section -->
+    <section class="home" id="index">
+        <div class="container">
+            <div class="landing">
+                <div class="content">
+                    <span>Welcome to our Career Guidance Hub</span>
+                    <h3>Explore <br>Your Potential<br>and Shape <br>Your Future</h3>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+                <div class="image">
+                    <img src="../images/orientation_fat.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- About section -->
+   <section class="about" id="about">
+    <div class="image">
+        <img src="../images/arrows.png" alt="Arrow Icon">
+    </div>
+    <div class="content">
+        <h3>Your Future Starts Here</h3>
+        <p>Discover the possibilities and make informed decisions for a successful career path.</p>
+        <a href="#" class="btn">Learn more</a>
+    </div>
+</section>
+<!-- Services section -->
+<section class="services" id="service">
+    <h2>Our Services</h2>
+    <p>Empowering you with the tools and knowledge for a bright future.</p>
+    <div class="services-box">
+        <div class="box">
+            <h3>Career Assessments</h3>
+            <p>Identify your strengths and interests to find the most suitable career paths.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="box">
+            <h3>Guidance Counseling</h3>
+            <p>Receive personalized guidance from experienced career counselors.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="box">
+            <h3>Skills Development</h3>
+            <p>Acquire essential skills through our training programs and workshops.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </div>
+</section>
+<!-- Contact section -->
+<footer id="contact">
+    <div class="footer-content">
+        <div class="top">
+            <div class="logo-details">
+                <i class="fas fa-arrow-right"></i>
+                <span class="logo_name">Orientation Hub</span>
+            </div>
+        </div>
+        <div class="link-boxes">
+            <ul class="box">
+                <li class="link_name">Quick Links</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li> <div class="icons">
+                    <i class="fas fa-bars" id="menu-btn"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </li>
+            </ul>
+            <ul class="box input-box">
+                <li class="link_name">Any question</li>
+                <li><input type="text" placeholder="Enter your Email"></li>
+                <li><input type="text" placeholder="Enter your question"></li>
+                <li><input type="button" value="Send"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="bottom-details">
+        <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Code Info</a> All rights reserved</span>
+            <span class="policy_terms">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </span>
+        </div>
+    </div>
+</footer>
+<script>
+    let navbar = document.querySelector('.navbar');
+    document.querySelector('#menu-btn').onclick = () => {
+        navbar.classList.toggle('active');
+    }
+</script>
+</body>
+</html>

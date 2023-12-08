@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,700&family=Kenia&family=Montserrat:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'Kanit', sans-serif;
+}
+/* style header */
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    font-family:'Kenia', sans-serif;
+
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .menu li {
+    margin-right: 30px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 2;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    
+  }
+  /* END style header */
+
+  /* About Section: */
+  .About {
+    display: flex;
+    margin-top: 50px;
+}
+.info1{
+    font-size: 30px;
+    margin-left: 70px; 
+    margin-top: 80px;
+    
+}
+.info1 p{
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+}
+.info1 .social_media{
+    list-style: none;
+  
+}
+.info1 .social_media li{
+       display: inline;
+}
+.info1 .social_media li a{
+    text-decoration: none;
+}
+.info1 .social_media li a img{
+    margin-top: 20px;
+   height: 40px;
+   margin-left: 50px;
+
+}
+.info {
+    flex: 1;
+    
+}
+.info .img{
+    height: 400px;
+}
+
+    /*end About Section: */
+   /* skills Section: */
+#Skills {
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(189, 184, 184);
+}
+.desc{
+    font-size: 30px;
+    margin-left: 20px; 
+    
+}
+.desc p{
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+}
+.desc p i{
+    color: rgb(247, 232, 32);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.column {
+    flex: 1;
+    
+}
+.column .img{
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.column .web{
+    list-style: none;
+    margin-top: 30px;
+}
+.column .web li{
+    display: inline;
+}
+      /*end skills Section: */
+      /* Projects Section          */
+      #projects {
+        text-align: center;
+        margin-top: 30px;
+        
+      }
+      
+      #projects h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      
+      #projects .project {
+        display: inline-block;
+        width: 300px; /* Adjust width as needed */
+        margin: 0 10px;
+        text-align: left;
+      }
+      
+      #projects .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+      
+      #projects .project h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      
+      #projects .project p {
+        font-size: 1em;
+        color: #555;
+      }
+      
+    /* End Projects Section */
+
+     /* Resume Section */
+        #resume{
+            height: 500px;
+            text-align: center;
+            margin-top: 40px;
+            background-color: rgb(189, 184, 184);
+        }
+        #resume h2{
+            font-size: 2em;
+           margin-top: 60px;
+        }
+        #resume img{
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        #resume p{
+            color: rgb(88, 86, 86);
+            font-size: 20px;
+            margin-top: 20px;
+        }
+       
+        #resume a button{
+            margin-top:30px ;
+        }
+        #resume button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          #resume button:hover {
+            background-color: #2980b9;
+          }
+      /*End Resume Section */
+
+      /* contact section */
+      .contact {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .contact-info {
+        margin-top: 20px;
+        font-size: 16px;
+      }
+      
+      .contact-info p {
+        margin: 10px 0;
+        transition: color 0.3s; /* Ajout d'une transition pour l'effet d'animation */
+      }
+      
+      .contact-info p:hover {
+        color: #FF5733; /* Changement de couleur au survol pour l'effet d'animation */
+      }
+      
+      
+      /* end contact section */
+      /* footer */
+      .footer {
+        text-align: center;
+        margin-top: 50px;
+        background-color: #f9f9f9;
+        padding: 20px 0;
+      }
+      
+      .footer p {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+      
+      .footer .additional-links a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #333;
+        font-size: 14px;
+      }
+      
+      .footer .additional-links a:hover {
+        text-decoration: underline;
+      }
+      
+      /* end footer */
